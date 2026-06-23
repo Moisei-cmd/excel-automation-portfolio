@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
 
-# 1. Макет (layout) — список списков. Каждый внутренний список — строка в окне.
+
 layout = [
     [sg.Text('Файл с данными (что продаем):')],
     [sg.Input(key='-Data-'), sg.FileBrowse()],
